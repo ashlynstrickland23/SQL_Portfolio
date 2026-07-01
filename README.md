@@ -62,6 +62,26 @@ The final reporting layer helps answer business questions such as which products
 
 [View full project details](02_Supply_Chain_Inventory_Optimization_SQL)
 
+---
+
+## Project 3: Financial Revenue Anomaly Detection SQL
+
+This project presents a simulated finance and subscription revenue analytics engagement where raw customer, subscription, invoice, payment, refund, and dispute data is transformed into a clean PostgreSQL reporting layer for executive finance reporting.
+
+The analysis uses SQL to monitor monthly revenue, detect unusual revenue movement, identify high risk customers, review refund and dispute exposure, flag duplicate payments, assess subscription renewal risk, and validate financial reporting accuracy. The dataset includes 10,000 customers, 15,000 subscriptions, 80,000 invoices, 58,534 payments, 10,017 refunds, and 1,475 payment disputes.
+
+The final reporting layer helps answer business questions such as where revenue is increasing or declining, which customers present financial risk, where refund and dispute exposure is highest, which subscriptions may be at renewal risk, and whether financial reporting views reconcile with the source database.
+
+![Monthly Revenue Anomaly Summary](03_Financial_Revenue_Anomaly_Detection_SQL/screenshots/Monthly%20Revenue%20Anomaly%20Summary.png)
+
+[View full project details](03_Financial_Revenue_Anomaly_Detection_SQL)
+
 <br>
 
-## More Projects Coming Soon
+## Coming Soon: Amazon QuickSight Dashboard Integration
+
+The next phase of this portfolio will connect these PostgreSQL reporting views to Amazon QuickSight, a cloud based business intelligence tool used for interactive data visualization and executive reporting.
+
+These SQL datasets are designed to support dashboard development for revenue monitoring, customer risk analysis, supplier performance, inventory health, product profitability, cohort retention, anomaly detection, and reporting validation.
+
+This will demonstrate the full workflow from raw database tables, to SQL reporting views, to cloud based business dashboards.
