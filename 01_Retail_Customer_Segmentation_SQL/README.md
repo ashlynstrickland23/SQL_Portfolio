@@ -1,8 +1,19 @@
 # Retail Customer Segmentation SQL Project
 
-This project demonstrates how raw retail sales data can be transformed into clean PostgreSQL reporting views for business intelligence and dashboard development.
+This project presents a simulated retail analytics engagement where raw transactional data is transformed into a clean PostgreSQL reporting layer for executive business intelligence.
 
-The goal of this project is to show how SQL can be used to analyze customer behavior, segment customers, track revenue trends, evaluate product profitability, measure cohort retention, and validate dashboard ready reporting tables.
+The objective is to help leadership understand customer value, revenue performance, product profitability, retention behavior, and reporting accuracy through SQL driven analysis. The project uses PostgreSQL views to organize complex retail data into trusted, dashboard ready outputs that could support tools such as Power BI, QuickSight, or Tableau.
+
+The final reporting layer is designed to help a business answer key questions such as:
+
+* Which customer segments generate the most revenue?
+* Which customers are at risk of churn?
+* How are revenue and profit trending month over month?
+* Which products drive the most profit?
+* How well are customers retained after their first purchase?
+* Do dashboard metrics match the source database?
+
+This project reflects a real world analytics workflow where SQL is used to move from raw data to reliable business reporting, executive summaries, and decision ready insights.
 
 ## Dataset Overview
 
