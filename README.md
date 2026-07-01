@@ -1,2 +1,39 @@
-# SQL_Portfolio
-Built to showcase SQL skills in transforming raw database tables into clean, reliable reporting models. Includes projects focused on data cleaning, KPI validation, reporting views, business logic, and dashboard ready datasets for Power BI, QuickSight, and executive analytics.
+# SQL Projects Portfolio
+
+Welcome to my SQL Portfolio Repository.
+
+This portfolio is built to demonstrate my ability to transform raw, complex database tables into clean, reliable, and dashboard ready reporting models. Each project reflects my experience with SQL logic, KPI validation, data cleaning, reporting views, and business intelligence workflows.
+
+My goal is always the same: to create trusted datasets that help businesses make smarter, data driven decisions.
+
+---
+
+## 🛠️ Tools
+
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![DBeaver](https://img.shields.io/badge/DBeaver-372923?style=for-the-badge&logoColor=white)
+![pgAdmin](https://img.shields.io/badge/pgAdmin-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+---
+
+## 💡 Skills
+
+![Data Cleaning](https://img.shields.io/badge/Data_Cleaning-2E8B57?style=for-the-badge)
+![KPI Validation](https://img.shields.io/badge/KPI_Validation-1E90FF?style=for-the-badge)
+![Reporting Views](https://img.shields.io/badge/Reporting_Views-6A0DAD?style=for-the-badge)
+![Business Logic](https://img.shields.io/badge/Business_Logic-FF8C00?style=for-the-badge)
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-008080?style=for-the-badge)
+![Dashboard QA](https://img.shields.io/badge/Dashboard_QA-DC143C?style=for-the-badge)
+![ETL](https://img.shields.io/badge/ETL-4682B4?style=for-the-badge)
+![Executive Reporting](https://img.shields.io/badge/Executive_Reporting-228B22?style=for-the-badge)
+
+---
+
+# SQL Projects
+
+📌 Project details coming soon.
