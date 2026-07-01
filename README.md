@@ -36,10 +36,6 @@ My goal is always the same: to create trusted datasets that help businesses make
 
 # SQL Projects
 
----
-
-# SQL Projects
-
 ## Project 1: Retail Customer Segmentation SQL
 
 This project presents a simulated retail analytics engagement where raw transactional data is transformed into a clean PostgreSQL reporting layer for executive business intelligence.
