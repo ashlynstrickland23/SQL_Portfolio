@@ -49,3 +49,19 @@ The final reporting layer helps answer business questions such as which customer
 [View full project details](01_Retail_Customer_Segmentation_SQL)
 
 ---
+
+## Project 2: Supply Chain Inventory Optimization SQL
+
+This project presents a simulated supply chain analytics engagement where raw inventory, supplier, warehouse, and purchase order data is transformed into a clean PostgreSQL reporting layer for operational and executive decision making.
+
+The analysis uses SQL to monitor inventory health, identify excess stock, detect reorder needs, evaluate supplier delivery performance, review delayed purchase orders, compare warehouse inventory positions, and validate reporting accuracy. The dataset includes 30 suppliers, 10 warehouses, 250 products, 452,500 inventory snapshot rows, 20,000 purchase orders, and product level purchase order details.
+
+The final reporting layer helps answer business questions such as which products are at inventory risk, which suppliers are causing delivery delays, where inventory value is concentrated, which warehouses need review, and whether reporting views reconcile with the source database.
+
+![Inventory Health Summary](02_Supply_Chain_Inventory_Optimization_SQL/screenshots/Inventory%20Health%20Summary.png)
+
+[View full project details](02_Supply_Chain_Inventory_Optimization_SQL)
+
+<br>
+
+## More Projects Coming Soon
