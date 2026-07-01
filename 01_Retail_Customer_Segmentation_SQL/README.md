@@ -46,7 +46,9 @@ This project uses a simulated enterprise retail dataset created in PostgreSQL.
 
 ## Customer Segmentation Revenue Summary
 
-This query groups customers into RFM customer segments and summarizes customer count, total revenue, and average order value. The output helps identify high value customers, loyal customers, inactive customers, and at risk customer groups for business decision making.
+This output shows customers grouped into RFM segments based on purchase activity, frequency, and revenue contribution.
+
+The highest revenue segment is Champions with 721 customers and $24.2M in total revenue. At Risk High Value customers also represent a major opportunity, with 637 customers and $19.7M in revenue. This helps leadership quickly see which customer groups are driving the most value and which groups may need retention campaigns.
 
 ![Customer Segmentation Revenue Summary](screenshots/Customer%20Segmentation%20Revenue%20Summary.png)
 
@@ -54,7 +56,9 @@ This query groups customers into RFM customer segments and summarizes customer c
 
 ## Monthly Sales Trends and Growth Analysis
 
-This query summarizes monthly sales performance using a PostgreSQL reporting view. The output includes total orders, unique customers, revenue, profit, average item revenue, previous month revenue, and month over month growth percentages.
+This output shows monthly performance across total orders, unique customers, revenue, profit, average item revenue, and month over month growth.
+
+The view shows monthly revenue ranging from about $5.3M to $6.4M, with March 2024 reaching $6.4M in revenue and 16.18% revenue growth from the previous month. This helps a business monitor sales trends, identify stronger months, and understand changes in revenue and profit over time.
 
 ![Monthly Sales Trends and Growth Analysis](screenshots/Monthly%20Sales%20Trends%20and%20Growth%20Analysis.png)
 
@@ -62,7 +66,9 @@ This query summarizes monthly sales performance using a PostgreSQL reporting vie
 
 ## Product Profitability and Ranking Analysis
 
-This query ranks products by revenue and profit while also showing total units sold, net sales, profit margin, return rate, revenue rank, and profit rank. This helps identify top performing products and products that may need review.
+This output ranks products by sales and profit performance.
+
+The top product shown generated $2.15M in net sales, sold 2,167 units, and had an 81.33% profit margin. Another product had the highest profit rank with over $2.0M in profit and a 97.87% profit margin. This helps a business identify top performing products, high margin products, and products that may need pricing or return rate review.
 
 ![Product Profitability and Ranking Analysis](screenshots/Product%20Profitability%20and%20Ranking%20Analysis.png)
 
@@ -70,7 +76,9 @@ This query ranks products by revenue and profit while also showing total units s
 
 ## Customer Cohort Retention Analysis
 
-This query tracks customer retention by cohort month and months since first order. It helps analyze whether customers continue purchasing after their first month.
+This output tracks customer retention by first purchase month and months since first order.
+
+The January 2024 cohort started with 1,425 customers. One month later, 397 customers returned, giving a 27.86% retention rate. Two months later, 434 customers returned, giving a 30.46% retention rate. This helps a business understand repeat purchase behavior and whether customers continue engaging after their first order.
 
 ![Customer Cohort Retention Analysis](screenshots/Customer%20Cohort%20Retention%20Analysis.png)
 
@@ -78,7 +86,9 @@ This query tracks customer retention by cohort month and months since first orde
 
 ## Executive RFM Segment Summary
 
-This view provides an executive ready summary of customer segments, revenue, profit, activity, return rate, and ranking. It is designed as a dashboard ready reporting table.
+This output provides a leadership ready summary of customer segments, revenue, profit, activity, return rate, and ranking.
+
+Champions rank first with $24.2M in revenue, $11.3M in profit, and an average lifetime revenue of $33,637. At Risk High Value customers rank second with $19.6M in revenue and an average of 108 days since last order. This helps leadership prioritize retention, loyalty, and revenue growth strategies by customer group.
 
 ![Executive RFM Segment Summary](screenshots/Executive%20RFM%20Segment%20Summary.png)
 
@@ -86,12 +96,19 @@ This view provides an executive ready summary of customer segments, revenue, pro
 
 ## Dashboard Validation Summary
 
-This validation query compares raw database values against the reporting view layer. Metrics marked as Review show where business rules or reporting filters create differences that should be checked before dashboard reporting.
+This output compares raw database values against the reporting view layer to check dashboard accuracy.
+
+The customer count passed validation with 5,000 customers in both the raw table and reporting view. The order item count also passed with 100,140 rows. Metrics marked Review show where the reporting layer differs from the raw source data, such as raw order count versus reporting view order count. This helps a business catch reporting differences before dashboards are shared with decision makers.
 
 ![Dashboard Validation Summary](screenshots/Dashboard%20Validation%20Summary.png)
-
 ---
 
-## Business Value
+## Overall Business Value
 
-This project demonstrates how SQL can support business intelligence by creating a reliable reporting layer between raw database tables and dashboard tools. The final views can be connected to Power BI, QuickSight, Tableau, or other BI platforms for executive reporting.
+This project demonstrates how SQL can turn raw transactional data into a reliable reporting layer that supports better business decisions. Instead of only querying individual tables, the project builds dashboard ready views that summarize customer behavior, sales trends, product profitability, cohort retention, and validation checks.
+
+The analysis shows how a business can identify its highest value customers, monitor monthly revenue and profit movement, understand which products drive the most margin, measure repeat purchasing behavior, and catch reporting differences before dashboards are shared with leadership.
+
+From an executive perspective, this type of SQL reporting layer helps teams move from raw data to trusted insights. It supports customer retention strategy, revenue growth planning, product performance reviews, dashboard quality control, and business intelligence reporting in tools like Power BI, QuickSight, or Tableau.
+
+This project reflects an end to end analytics workflow: database creation, large scale test data generation, SQL transformation, business logic, reporting views, validation, and executive ready outputs.
