@@ -110,3 +110,7 @@ The analysis helps a business monitor inventory health, identify excess stock, d
 From an executive perspective, this reporting layer supports better decisions around procurement, inventory planning, warehouse operations, supplier management, working capital, and fulfillment risk. Instead of relying on disconnected spreadsheets or raw system exports, the business receives clean SQL views that can feed directly into BI dashboards and recurring operational reports.
 
 This project reflects an end to end analytics workflow: database creation, large scale test data generation, SQL transformation, operational business logic, reporting views, validation checks, and executive ready outputs.
+
+---
+
+[← Back to Main README](../README.md)
