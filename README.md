@@ -36,4 +36,20 @@ My goal is always the same: to create trusted datasets that help businesses make
 
 # SQL Projects
 
-📌 Project details coming soon.
+---
+
+# SQL Projects
+
+## Project 1: Retail Customer Segmentation SQL
+
+This project presents a simulated retail analytics engagement where raw transactional data is transformed into a clean PostgreSQL reporting layer for executive business intelligence.
+
+The analysis uses SQL to segment customers, track monthly sales performance, evaluate product profitability, measure customer retention, and validate dashboard ready reporting views. The dataset includes 5,000 customers, 50,000 orders, 100,140 order item rows, 100 products, warehouses, suppliers, and returns.
+
+The final reporting layer helps answer business questions such as which customer segments generate the most revenue, which products drive the most profit, how revenue changes month over month, and whether dashboard metrics match the source database.
+
+![Customer Segmentation Revenue Summary](01_Retail_Customer_Segmentation_SQL/screenshots/Customer%20Segmentation%20Revenue%20Summary.png)
+
+[View full project details](01_Retail_Customer_Segmentation_SQL)
+
+---
