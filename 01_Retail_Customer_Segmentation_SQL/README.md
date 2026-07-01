@@ -6,39 +6,41 @@ The goal of this project is to show how SQL can be used to analyze customer beha
 
 ## Dataset Overview
 
-This project uses a simulated retail dataset created in PostgreSQL.
+This project uses a simulated enterprise retail dataset created in PostgreSQL.
 
-The database includes:
+| Table | Row Count | Description |
+|---|---:|---|
+| Customers | 5,000 | Customer profiles, segments, loyalty tiers, and acquisition channels |
+| Orders | 50,000 | Order level transactions with dates, status, sales channel, and shipping details |
+| Order Items | 100,140 | Product level line items with quantity, price, cost, and discounts |
+| Products | 100 | Product catalog with brand, category, supplier, price, and cost |
+| Suppliers | 20 | Supplier details, region, lead time, and rating |
+| Warehouses | 8 | Fulfillment locations by city, state, and region |
+| Returns | 8,762 | Returned orders with reasons, dates, and refund amounts |
 
-* 5,000 customers
-* 50,000 orders
-* 100,140 order item rows
-* 100 products
-* 20 suppliers
-* 8 warehouses
-* 8,762 returns
+## 🛠️ Tools Used
 
-## Tools Used
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![DBeaver](https://img.shields.io/badge/DBeaver-372923?style=for-the-badge&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Power BI Ready](https://img.shields.io/badge/Power_BI_Ready-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-* PostgreSQL
-* DBeaver
-* SQL
-* GitHub
-* Power BI ready reporting views
+---
 
-## Skills Demonstrated
+## 💡 Skills Demonstrated
 
-* Database table creation
-* Large test data generation
-* SQL joins
-* CTEs
-* Window functions
-* RFM customer segmentation
-* Monthly sales trend analysis
-* Product profitability analysis
-* Cohort retention analysis
-* Dashboard validation
-* Reporting view development
+![Database Creation](https://img.shields.io/badge/Database_Creation-6A0DAD?style=for-the-badge)
+![Large Test Data](https://img.shields.io/badge/Large_Test_Data-1E90FF?style=for-the-badge)
+![SQL Joins](https://img.shields.io/badge/SQL_Joins-008080?style=for-the-badge)
+![CTEs](https://img.shields.io/badge/CTEs-FF8C00?style=for-the-badge)
+![Window Functions](https://img.shields.io/badge/Window_Functions-DC143C?style=for-the-badge)
+![RFM Segmentation](https://img.shields.io/badge/RFM_Segmentation-228B22?style=for-the-badge)
+![Trend Analysis](https://img.shields.io/badge/Trend_Analysis-4682B4?style=for-the-badge)
+![Product Profitability](https://img.shields.io/badge/Product_Profitability-2E8B57?style=for-the-badge)
+![Cohort Retention](https://img.shields.io/badge/Cohort_Retention-FF69B4?style=for-the-badge)
+![Dashboard Validation](https://img.shields.io/badge/Dashboard_Validation-B22222?style=for-the-badge)
+![Reporting Views](https://img.shields.io/badge/Reporting_Views-4B0082?style=for-the-badge)
 
 ---
 
