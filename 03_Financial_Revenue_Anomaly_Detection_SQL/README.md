@@ -131,3 +131,7 @@ The analysis helps a business monitor revenue trends, detect unusual monthly rev
 From an executive perspective, this type of SQL reporting layer supports better decisions around revenue performance, customer retention, collections, billing controls, renewal management, and financial reporting quality. Instead of relying on manual spreadsheet review, the business receives repeatable SQL views that can feed directly into Power BI, QuickSight, Tableau, or monthly finance reports.
 
 This project reflects an end to end analytics workflow: database creation, large scale test data generation, SQL transformation, anomaly logic, customer risk scoring, duplicate detection, validation checks, and executive ready outputs.
+
+---
+
+[← Back to Main README](../README.md)
