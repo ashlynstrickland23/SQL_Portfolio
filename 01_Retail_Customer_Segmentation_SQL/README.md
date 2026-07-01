@@ -123,3 +123,7 @@ The analysis shows how a business can identify its highest value customers, moni
 From an executive perspective, this type of SQL reporting layer helps teams move from raw data to trusted insights. It supports customer retention strategy, revenue growth planning, product performance reviews, dashboard quality control, and business intelligence reporting in tools like Power BI, QuickSight, or Tableau.
 
 This project reflects an end to end analytics workflow: database creation, large scale test data generation, SQL transformation, business logic, reporting views, validation, and executive ready outputs.
+
+---
+
+[← Back to Main README](../README.md)
