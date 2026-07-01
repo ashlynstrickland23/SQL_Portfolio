@@ -6,8 +6,6 @@ The objective is to help leadership identify inventory risk, supplier delivery i
 
 This project reflects a real world supply chain workflow where SQL is used to move from raw operational records to trusted reporting outputs that help reduce stock risk, improve supplier accountability, and support inventory planning.
 
----
-
 ## Dataset Overview
 
 This project uses a simulated enterprise supply chain dataset created in PostgreSQL.
@@ -22,8 +20,6 @@ This project uses a simulated enterprise supply chain dataset created in Postgre
 | Purchase Orders | 20,000 | Supplier purchase orders with expected delivery, actual delivery, status, and priority |
 | Purchase Order Items | Generated Line Items | Product level purchase order detail with ordered units, received units, cost, and line value |
 
----
-
 ## 🛠️ Tools Used
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -31,8 +27,6 @@ This project uses a simulated enterprise supply chain dataset created in Postgre
 ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Power BI Ready](https://img.shields.io/badge/Power_BI_Ready-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
----
 
 ## 💡 Skills Demonstrated
 
@@ -47,8 +41,6 @@ This project uses a simulated enterprise supply chain dataset created in Postgre
 ![Data Validation](https://img.shields.io/badge/Data_Validation-B22222?style=for-the-badge)
 ![Executive Reporting](https://img.shields.io/badge/Executive_Reporting-2E8B57?style=for-the-badge)
 
----
-
 ## Inventory Health Summary
 
 This output summarizes the latest inventory position by stock status across all warehouse and product combinations.
@@ -57,9 +49,7 @@ The analysis shows 1,394 healthy product warehouse combinations with 2.7M availa
 
 From a business perspective, this helps leadership understand where inventory is balanced, where capital may be tied up in excess stock, and where replenishment action may be needed. This type of view supports inventory planning, working capital management, and operational risk monitoring.
 
-![Inventory Health Summary](screenshots/inventory_health_summary.png)
-
----
+![Inventory Health Summary](screenshots/Inventory%20Health%20Summary.png)
 
 ## Supplier Performance Summary
 
@@ -69,9 +59,7 @@ The screenshot highlights suppliers with low on time delivery rates, including s
 
 From a business perspective, this helps procurement and operations teams identify supplier reliability issues before they impact customer fulfillment. A business could use this view to renegotiate supplier terms, prioritize backup vendors, monitor late deliveries, and improve supply chain accountability.
 
-![Supplier Performance Summary](screenshots/supplier_performance_summary.png)
-
----
+![Supplier Performance Summary](screenshots/Supplier%20Performance%20Summary.png)
 
 ## Stockout Risk Analysis
 
@@ -81,9 +69,7 @@ The screenshot shows products currently classified as Overstock Risk, with some 
 
 From a business perspective, this helps teams identify both shortage risk and excess inventory risk. Overstocked products may require pricing review, promotion planning, demand forecasting adjustments, or purchasing changes to prevent unnecessary carrying costs.
 
-![Stockout Risk Analysis](screenshots/stockout_risk_analysis.png)
-
----
+![Stockout Risk Analysis](screenshots/Stockout%20Risk%20Analysis.png)
 
 ## Warehouse Inventory Summary
 
@@ -93,9 +79,7 @@ The screenshot shows each warehouse carrying 250 SKUs, with inventory values ran
 
 From a business perspective, this helps leadership compare inventory health across warehouse locations. It can support warehouse capacity planning, regional replenishment decisions, transfer planning, and operational performance reviews.
 
-![Warehouse Inventory Summary](screenshots/warehouse_inventory_summary.png)
-
----
+![Warehouse Inventory Summary](screenshots/Warehouse%20Inventory%20Summary.png)
 
 ## Purchase Order Delivery Analysis
 
@@ -105,9 +89,7 @@ The screenshot highlights late purchase orders with delivery delays of 9 days. I
 
 From a business perspective, this helps operations teams identify delayed shipments, quantify supplier delivery issues, and understand which late orders carry the most financial impact. This type of view supports supplier scorecards, procurement follow up, and fulfillment risk management.
 
-![Purchase Order Delivery Analysis](screenshots/purchase_order_delivery_analysis.png)
-
----
+![Purchase Order Delivery Analysis](screenshots/Purchase%20Order%20Delivery%20Analysis.png)
 
 ## Supply Chain Validation Summary
 
@@ -117,9 +99,7 @@ The validation summary shows all core metrics passing with zero difference, incl
 
 From a business perspective, this step helps ensure that reporting outputs are reliable before they are connected to a dashboard or shared with leadership. It demonstrates a quality control process that checks whether the reporting layer matches the source database.
 
-![Supply Chain Validation Summary](screenshots/supply_chain_validation_summary.png)
-
----
+![Supply Chain Validation Summary](screenshots/Supply%20Chain%20Validation%20Summary.png)
 
 ## Overall Business Value
 
